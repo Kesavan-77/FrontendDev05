@@ -120,20 +120,23 @@ body{
 }
 @media only screen and (max-width: 425px){
     .container{
-        width: fit-content;
+        width: 270px;
         padding: 2rem;
+    }
+    .container .form input{
+        margin-top: 5px;
+        width: 60px;
+        padding-left: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: 2px solid var(--Light-grey);
     }
     .container .form{
         display: flex;
         gap: 1rem;
     }
-    .container .form .error{
-        color:var(--Light-red);
-    }
-    .container .form .errorInput{
-        border: 1px solid var(--Light-red);
-    }
     .container .result span{
-        font-size: 50px;
+        font-size: 40px;
     }
 }
